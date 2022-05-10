@@ -7,7 +7,7 @@ import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNone
 import ChatBubbleOutlinedIcon from '@mui/icons-material/ChatBubbleOutlined';
 import ListOutlinedIcon from '@mui/icons-material/ListOutlined';
 
-function Navbar() {
+const Navbar = () => {
     return (
         <div className='navbar'>
             <div className='wrapper'>
@@ -22,11 +22,11 @@ function Navbar() {
                     </div>
                     <div className='item'>
                         <DarkModeOulinedIcon className='icon' />
-                        English
+                        Theme
                     </div>
                     <div className='item'>
                         <FullscreenExitOutlinedIcon className='icon' />
-                        English
+                        Screen Set
                     </div>
                     <div className='item'>
                         <NotificationsNoneOutlinedIcon className='icon' />
@@ -38,7 +38,7 @@ function Navbar() {
                     </div>
                     <div className='item'>
                         <ListOutlinedIcon className='icon' />
-                        English
+                        Items
                     </div>
                     <div className='item'>
                         <img src='/images/avatar/avatar1.jpg' alt='' className='avatar' />

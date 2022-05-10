@@ -12,7 +12,7 @@ import SettingsApplicationsOutlinedIcon from '@mui/icons-material/SettingsApplic
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 
-function Sidebar() {
+const Sidebar = () => {
     return (
         <div className='sidebar'>
             <div className='top'>

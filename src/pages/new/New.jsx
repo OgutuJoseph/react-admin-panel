@@ -1,6 +1,6 @@
 import React from 'react'
 
-function New() {
+const New = () => {
     return (
         <div>New</div>
     )
